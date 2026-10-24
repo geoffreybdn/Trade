@@ -1,0 +1,22 @@
+{
+  "name": "Freqtrade Bot",
+  "short_name": "Freqtrade",
+  "description": "Pilotage du bot de trading Freqtrade connecté à Binance",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#161b1d",
+  "theme_color": "#161b1d",
+  "lang": "fr",
+  "icons": [
+    { "src": "/pwa/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Trades", "url": "/trade", "icons": [{ "src": "/pwa/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Dashboard", "url": "/dashboard", "icons": [{ "src": "/pwa/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
